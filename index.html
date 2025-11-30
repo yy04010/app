@@ -211,8 +211,8 @@
             const domain = window.location.origin;
             const path = fullUrl.replace(domain, '');
             
-            // 提取/abc/后面的内容
-            const match = path.match(/\/abc\/(.+)/);
+            // 提取/app/后面的内容
+            const match = path.match(/\/app\/(.+)/);
             return match ? match[1] : '';
         }
         
