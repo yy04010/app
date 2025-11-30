@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /abc/
+RewriteBase /app/
 
 # 如果请求的不是实际存在的文件
 RewriteCond %{REQUEST_FILENAME} !-f
